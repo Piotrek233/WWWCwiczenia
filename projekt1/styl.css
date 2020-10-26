@@ -1,0 +1,89 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+body
+{
+	font-family: 'Roboto Mono', monospace;
+	font-size: 90%;
+	background-image: url(img/tlo.gif);
+}
+#strona
+{
+	width: 90%;
+	margin:0 auto 0 auto;
+	border: solid 1px slategray;
+}
+h2
+{
+	font-size: 30px;
+	padding: 10px;
+}
+header
+{
+	height: 150px;
+	background: green;
+	background-image: url(img/logo.jpg);
+}
+footer{ height: 20px; background: #803514; color: white; text-align: center;}
+nav { height: 1700px;width:19%;float:left; padding:0.2% 0.5% 0.2% 0.5%;background:#ff611b;}
+article { height: 1700px;width:52%;float:left; padding:0.2% 1.5% 0.2% 1.5%; background:#ff831f;}
+aside {height: 1700px;width:22%; float: left; padding:0.2% 1.5% 0.2%  1.5%; background:#ff611b;}
+
+.enter{clear: both}
+
+@media screen and (min-width: 480px) and (max-width: 1024px)
+{
+
+	aside {display: none}
+}
+
+nav ul {margin: 0px;padding: 0px;list-style-type: none;}
+nav ul a, nav ul li a:visited {
+    display:block;
+    border:2px solid #803514;
+    text-align:center;
+    font-weight:bold;
+    text-decoration:none;
+    color:white;
+    background: #803514;
+    padding:5px;
+    margin:3px;
+}
+
+table
+{
+	margin: 0;
+	padding: 0;
+	border-bottom: 1px solid black;
+}
+td,th
+{
+	font-size: 1.5em;
+	padding: 20px 0px 20px 0px;
+	border: 1px solid black;
+	background-color: rgb(68,68,76);
+	color: white;
+}
+th
+{
+	font-size: 1.7em;
+}
+tr td a
+{
+	text-decoration: none;
+	font-size: 1.4em;
+	color: rgb(59,185,207);
+}
+tr td a:hover
+{
+	color:violet;
+}
+.ramka
+{
+	border:2px solid #803514;
+	text-align: center;
+}
