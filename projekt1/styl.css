@@ -17,6 +17,11 @@ body
 	margin:0 auto 0 auto;
 	border: solid 1px slategray;
 }
+h1
+{
+	font-size: 32px;
+	padding: 10px;
+}
 h2
 {
 	font-size: 30px;
