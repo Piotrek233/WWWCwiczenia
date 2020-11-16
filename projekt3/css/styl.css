@@ -1,0 +1,16 @@
+.ramka
+{
+    border: 1px dotted green;
+}
+body
+{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 100%;
+    background-color: #9e9ee5;
+}
+.col1
+{ background: #ff611b;}
+.col2
+{ background: #ff611b;}
+.col3
+{ background: #ff611b;}
